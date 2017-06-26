@@ -1,0 +1,3 @@
+%YAML:1.0
+OpenPath: "C:/Users/MedicalImageComputin/Desktop/r0.bmp"
+SavePath: "D:/t.bmp"

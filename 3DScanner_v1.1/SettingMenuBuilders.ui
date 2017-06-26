@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SettingMenuBuilder</class>
+ <widget class="QMenu" name="SettingMenuBuilder">
+  <property name="statusTip">
+   <string>Set Render Window Color</string>
+  </property>
+  <property name="title">
+   <string>Setting</string>
+  </property>
+  <action name="actionRenderWinBackColorSet">
+   <property name="icon">
+    <iconset resource="scanner.qrc">
+     <normaloff>:/scanner/Resources/Icons/colorA.ico</normaloff>:/scanner/Resources/Icons/colorA.ico</iconset>
+   </property>
+   <property name="text">
+    <string>Set Render Window Background</string>
+   </property>
+   <property name="toolTip">
+    <string>Set Render Window Backcolor</string>
+   </property>
+   <property name="statusTip">
+    <string>Set Render Window Background</string>
+   </property>
+  </action>
+  <addaction name="actionRenderWinBackColorSet"/>
+ </widget>
+ <resources>
+  <include location="scanner.qrc"/>
+ </resources>
+ <connections/>
+</ui>

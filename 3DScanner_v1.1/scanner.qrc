@@ -1,0 +1,46 @@
+<RCC>
+  <qresource prefix="scanner">
+    <file>Resources/Icons/bord.png</file>
+    <file>Resources/Icons/save.png</file>
+    <file>Resources/Icons/serialport.png</file>
+    <file>Resources/Icons/start-here.png</file>
+    <file>Resources/Icons/Stop1NormalBlue.png</file>
+    <file>Resources/Icons/connect.png</file>
+    <file>Resources/Icons/dicconnect.png</file>
+    <file>Resources/Icons/right.png</file>
+    <file>Resources/Icons/left.png</file>
+    <file>Resources/Icons/catch.png</file>
+    <file>Resources/Icons/synchronized.png</file>
+    <file>Resources/Icons/pointToSurface.png</file>
+    <file>Resources/Icons/filter.png</file>
+    <file>Resources/Icons/pqQuit22.png</file>
+    <file>Resources/Icons/pqFloppyDisk32.png</file>
+    <file>Resources/Icons/pqPolygonSelectSurfaceCell24.png</file>
+    <file>Resources/Icons/pqSurfaceSelectionCell24.png</file>
+    <file>Resources/Icons/pqSurfaceSelectionPoint24.png</file>
+    <file>Resources/Icons/pqFrustumSelectionCell24.png</file>
+    <file>Resources/Icons/pqSurfaceSelectionCell24.png</file>
+    <file>Resources/Icons/pqPolygonSelectSurfacePoint24.png</file>
+    <file>Resources/Icons/pqFrustumSelectionPoint24.png</file>
+    <file>Resources/Icons/eye_closed.png</file>
+    <file>Resources/Icons/eye_open.png</file>
+    <file>Resources/Icons/pqEyeball16.png</file>
+    <file>Resources/Icons/colorA.ico</file>
+    <file>Resources/Icons/pqResetCenter24.png</file>
+    <file>Resources/Icons/pqPickCenter24.png</file>
+    <file>Resources/Icons/pqShowOrientationAxes24.png</file>
+    <file>Resources/Icons/pqShowCenterAxes24.png</file>
+    <file>Resources/Icons/importPictureDocument.ico</file>
+    <file>Resources/Icons/pqHelp24.png</file>
+    <file>Resources/Icons/pqSave24.png</file>
+    <file>Resources/Icons/pqUndo24.png</file>
+    <file>Resources/Icons/pqRedo24.png</file>
+    <file>Resources/Icons/pqOpen24.png</file>
+    <file>Resources/Icons/pqRedo32.png</file>
+    <file>Resources/Icons/pqUndo32.png</file>
+    <file>Resources/Icons/pqSave32.png</file>
+    <file>Resources/Icons/pqOpen32.png</file>
+    <file>Resources/Icons/paraqlogo.ico</file>
+    <file>Resources/Icons/3D.jpg</file>
+  </qresource>
+</RCC>

@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>selectToolbar</class>
+ <widget class="QToolBar" name="selectToolbar">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>274</width>
+    <height>38</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Center Axes Controls</string>
+  </property>
+  <property name="orientation">
+   <enum>Qt::Horizontal</enum>
+  </property>
+  <action name="actionSelectPointThroug">
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="scanner.qrc">
+     <normaloff>:/scanner/Resources/Icons/pqFrustumSelectionPoint24.png</normaloff>:/scanner/Resources/Icons/pqFrustumSelectionPoint24.png</iconset>
+   </property>
+   <property name="text">
+    <string>Show Orientation Axes</string>
+   </property>
+   <property name="toolTip">
+    <string>Select Points Through</string>
+   </property>
+   <property name="statusTip">
+    <string>Select Points Through</string>
+   </property>
+  </action>
+  <action name="actionPolySelectSurfacePoint">
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="scanner.qrc">
+     <normaloff>:/scanner/Resources/Icons/pqPolygonSelectSurfacePoint24.png</normaloff>:/scanner/Resources/Icons/pqPolygonSelectSurfacePoint24.png</iconset>
+   </property>
+   <property name="text">
+    <string>Show Center</string>
+   </property>
+   <property name="toolTip">
+    <string>Poly Select Points On Surface</string>
+   </property>
+   <property name="statusTip">
+    <string>Poly Select Points On Surface</string>
+   </property>
+  </action>
+  <action name="actionSelectCellOn">
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="scanner.qrc">
+     <normaloff>:/scanner/Resources/Icons/pqSurfaceSelectionCell24.png</normaloff>:/scanner/Resources/Icons/pqSurfaceSelectionCell24.png</iconset>
+   </property>
+   <property name="text">
+    <string>Pick Center</string>
+   </property>
+   <property name="iconText">
+    <string>Pick Center</string>
+   </property>
+   <property name="toolTip">
+    <string>Select Cells On Surface</string>
+   </property>
+   <property name="statusTip">
+    <string>Select Cells On Surface</string>
+   </property>
+  </action>
+  <action name="actionSelectCellThroug">
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="scanner.qrc">
+     <normaloff>:/scanner/Resources/Icons/pqFrustumSelectionCell24.png</normaloff>:/scanner/Resources/Icons/pqFrustumSelectionCell24.png</iconset>
+   </property>
+   <property name="text">
+    <string>Reset Center</string>
+   </property>
+   <property name="toolTip">
+    <string>Select Cells Through</string>
+   </property>
+   <property name="statusTip">
+    <string>Select Cells Through</string>
+   </property>
+   <property name="whatsThis">
+    <string/>
+   </property>
+  </action>
+  <action name="actionSelectPointOn">
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="scanner.qrc">
+     <normaloff>:/scanner/Resources/Icons/pqSurfaceSelectionPoint24.png</normaloff>:/scanner/Resources/Icons/pqSurfaceSelectionPoint24.png</iconset>
+   </property>
+   <property name="text">
+    <string>selectPointOn</string>
+   </property>
+   <property name="toolTip">
+    <string>Select Points On Surface</string>
+   </property>
+   <property name="statusTip">
+    <string>Select Points On Surface</string>
+   </property>
+  </action>
+  <action name="actionPolySelectSurfaceCell">
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="scanner.qrc">
+     <normaloff>:/scanner/Resources/Icons/pqPolygonSelectSurfaceCell24.png</normaloff>:/scanner/Resources/Icons/pqPolygonSelectSurfaceCell24.png</iconset>
+   </property>
+   <property name="text">
+    <string>selectSurfaceCell</string>
+   </property>
+   <property name="toolTip">
+    <string>Poly Select Cells On Surface</string>
+   </property>
+   <property name="statusTip">
+    <string>Poly Select Cells On Surface</string>
+   </property>
+  </action>
+  <action name="actionSaveSelectedPart">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="scanner.qrc">
+     <normaloff>:/scanner/Resources/Icons/pqFloppyDisk32.png</normaloff>:/scanner/Resources/Icons/pqFloppyDisk32.png</iconset>
+   </property>
+   <property name="text">
+    <string>saveSelectedPart</string>
+   </property>
+   <property name="toolTip">
+    <string>Save Selected Part</string>
+   </property>
+   <property name="statusTip">
+    <string>Save Selected Part</string>
+   </property>
+  </action>
+  <action name="actionDeleleSelectedPart">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="scanner.qrc">
+     <normaloff>:/scanner/Resources/Icons/pqQuit22.png</normaloff>:/scanner/Resources/Icons/pqQuit22.png</iconset>
+   </property>
+   <property name="text">
+    <string>DeleleSelectedPart</string>
+   </property>
+   <property name="toolTip">
+    <string>Delele Selected Part</string>
+   </property>
+   <property name="statusTip">
+    <string>Delele Selected Part</string>
+   </property>
+  </action>
+  <addaction name="actionSelectCellThroug"/>
+  <addaction name="actionSelectPointThroug"/>
+  <addaction name="separator"/>
+  <addaction name="actionSelectCellOn"/>
+  <addaction name="actionSelectPointOn"/>
+  <addaction name="separator"/>
+  <addaction name="actionPolySelectSurfaceCell"/>
+  <addaction name="actionPolySelectSurfacePoint"/>
+  <addaction name="separator"/>
+  <addaction name="actionSaveSelectedPart"/>
+  <addaction name="actionDeleleSelectedPart"/>
+ </widget>
+ <resources>
+  <include location="scanner.qrc"/>
+ </resources>
+ <connections/>
+</ui>

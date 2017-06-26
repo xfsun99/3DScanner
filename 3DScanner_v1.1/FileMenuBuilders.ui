@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FileMenuBuilder</class>
+ <widget class="QMenu" name="FileMenuBuilder">
+  <property name="title">
+   <string>&amp;File</string>
+  </property>
+  <widget class="QMenu" name="menuRecentFiles">
+   <property name="title">
+    <string>Recent Files</string>
+   </property>
+  </widget>
+  <action name="actionFileOpen">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/pqWidgets/Icons/pqOpen24.png</normaloff>:/pqWidgets/Icons/pqOpen24.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Open...</string>
+   </property>
+   <property name="statusTip">
+    <string>Open</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+O</string>
+   </property>
+   <property name="PV_MUST_BE_MASTER_TO_SHOW" stdset="0">
+    <bool>true</bool>
+   </property>
+  </action>
+  <action name="actionFileExit">
+   <property name="text">
+    <string>E&amp;xit</string>
+   </property>
+   <property name="statusTip">
+    <string>Exit</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Q</string>
+   </property>
+  </action>
+  <addaction name="actionFileOpen"/>
+  <addaction name="menuRecentFiles"/>
+  <addaction name="separator"/>
+  <addaction name="actionFileExit"/>
+ </widget>
+ <resources>
+  <include location="../../../Components/Resources/pqComponents.qrc"/>
+ </resources>
+ <connections/>
+</ui>

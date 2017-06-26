@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>pointCloudEditToolBar</class>
+ <widget class="QToolBar" name="pointCloudEditToolBar">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>128</width>
+    <height>34</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Center Axes Controls</string>
+  </property>
+  <property name="orientation">
+   <enum>Qt::Horizontal</enum>
+  </property>
+  <action name="actionPointCloudFilter">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="scanner.qrc">
+     <normaloff>:/scanner/Resources/Icons/filter.png</normaloff>:/scanner/Resources/Icons/filter.png</iconset>
+   </property>
+   <property name="text">
+    <string>Show Orientation Axes</string>
+   </property>
+   <property name="toolTip">
+    <string>Point Cloud Filter</string>
+   </property>
+   <property name="statusTip">
+    <string>Point Cloud Filter</string>
+   </property>
+  </action>
+  <action name="actionPointToSurface">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="scanner.qrc">
+     <normaloff>:/scanner/Resources/Icons/pointToSurface.png</normaloff>:/scanner/Resources/Icons/pointToSurface.png</iconset>
+   </property>
+   <property name="text">
+    <string>Show Center</string>
+   </property>
+   <property name="toolTip">
+    <string>Point To Surface</string>
+   </property>
+   <property name="statusTip">
+    <string>Point To Surface</string>
+   </property>
+  </action>
+  <addaction name="actionPointCloudFilter"/>
+  <addaction name="actionPointToSurface"/>
+ </widget>
+ <resources>
+  <include location="scanner.qrc"/>
+ </resources>
+ <connections/>
+</ui>
